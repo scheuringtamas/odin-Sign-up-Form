@@ -6,5 +6,80 @@
     <link rel="stylesheet" href="styles.css" />
     <title>Sign-up Form</title>
   </head>
-  <body></body>
+  <body>
+    <div class="left-section">
+      <div class="logo-container">
+        <div>
+          <img src="images/odin_logo.png" class="logo-image" />
+        </div>
+        <div class="logo-text">ODIN</div>
+      </div>
+      <div class="footer">
+        Photo by
+        <a href="https://unsplash.com/@haliewestphoto" target="_blank"
+          >Halie West</a
+        >
+        on
+        <a
+          href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA"
+          target="_blank"
+          >Unsplash</a
+        >
+      </div>
+    </div>
+    <div class="right-section">
+      <p>
+        This is not a real online service! You know you need something like this
+        in your life to help you realize your deepest dreams.
+        <br />
+        Sign up <em>now</em> to get started.
+      </p>
+      <p>You <em>know</em> you want to.</p>
+      <form action="post">
+        <div class="input-table">
+          <div class="left-column">
+            <div>Let's do this!</div>
+            <div class="input-container">
+              <label for="first-name">FIRST NAME</label>
+              <input type="text" class="first-name" id="first-name" />
+            </div>
+            <div class="input-container">
+              <label for="email">Email</label>
+              <input type="email" class="email" id="email" />
+            </div>
+            <div class="input-container">
+              <label for="pw">Password</label>
+              <input type="password" class="pw" id="pw" required />
+            </div>
+          </div>
+          <div class="right-column">
+            <div class="input-container">
+              <label for="last-name">Last name</label>
+              <input type="text" class="last-name" id="last-name" />
+            </div>
+            <div class="input-container">
+              <label for="phone">Phone number</label>
+              <input type="tel" class="phone" id="phone" />
+            </div>
+            <div class="input-container">
+              <label for="confirm-pw">Confirm password</label>
+              <input
+                type="password"
+                class="confirm-pw"
+                id="confirm-pw"
+                required
+              />
+            </div>
+          </div>
+        </div>
+        <div class="create-button-container">
+          <button class="create-button">Create Account</button>
+        </div>
+      </form>
+      <div class="log-in">
+        Already have an account?
+        <a href="#">Log in</a>
+      </div>
+    </div>
+  </body>
 </html>
